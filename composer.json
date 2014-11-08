@@ -1,0 +1,22 @@
+{
+	"name": "metalguardian/yii-date-time-picker-widget",
+	"description": "",
+	"keywords": ["yii", "extension", "widget", "jquery", "date picker", "time picker"],
+	"homepage": "https://github.com/MetalGuardian/yii-jquery-date-time-picker-widget",
+	"type": "yii-extension",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Ivan Pushkin"
+		}
+	],
+	"require": {
+		"yiisoft/yii": "*",
+		"bower-asset/datetimepicker": "dev-master"
+	},
+	"autoload": {
+		"psr-4": {
+			"metalguardian\\": ""
+		}
+	}
+}
